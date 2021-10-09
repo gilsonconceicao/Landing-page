@@ -123,7 +123,8 @@ div.sobre-destaque p {
     color: white;
     text-shadow: -7px 8px 4px black;
     max-width: 600px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 5% auto;
+    line-height: 1.5em;
     text-align: center;
     font-size: 20px;
 }
@@ -138,6 +139,7 @@ div.sobre-destaque p {
     text-decoration: none;
     border-radius: 20px;
     padding: 5px 10px;
+    margin-top: 90px;
     transition: .7s;
 }
 
@@ -511,7 +513,7 @@ img {
 
     div.sobre-destaque p {
         font-size: 18px;
-        margin: 10px auto;
+        margin: 30px auto 40px auto;
         padding: 0 10px;
     }
 
