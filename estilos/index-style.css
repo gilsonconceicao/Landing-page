@@ -45,7 +45,7 @@ header {
     height: 30px;
     border-radius: 100%;
     transition: .8s;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #logo div:hover {
@@ -175,11 +175,9 @@ div.sobre-gestor h2 {
     padding: 10px 20px;
 }
 
-div.sobre-gestor p {
+article#gestor-trafego p {
     color: black;
-    text-align: justify;
     font-size: 18px;
-    padding: 10px 20px;
 }
 
 article#gestor-trafego img {
@@ -573,6 +571,10 @@ img {
     }
 
     
+    div.sobre-destaque {
+        max-width: 800px;
+        margin: auto;
+    }
 
 
 }
@@ -602,7 +604,7 @@ img {
     h2#botao-menu {
         display: block;
         color: white;
-        padding-right: 20px;
+        padding-right: 40px;
     }
     img {
         width: 100%;
