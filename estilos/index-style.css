@@ -453,6 +453,11 @@ img {
         margin: auto;
     }
 
+    /* importância no gestor de tráfego */ 
+    article#gestor-importante img {
+        box-shadow: 3px 3px 12px #2a2a2a8c;
+        width: 100%;
+    }
 
     /* -- Por que fazer anúncios do seu negócio 05 ----- */
     div.sobre-anuncios {
@@ -525,7 +530,7 @@ img {
 
 @media screen and (max-width: 600px) {
     div.sobre-gestor h2 {
-        margin: 10px;
+        margin: 10px 10px 15px 10px; 
         font-size: 2em;
     }
 
@@ -534,7 +539,7 @@ img {
     }
 
     article#gestor-empresa h2 {
-        margin: 10px;
+        margin: 10px 10px 15px 10px; 
         font-size: 2em;
     }
 
@@ -543,7 +548,7 @@ img {
     }
 
     article#gestor-importante h2 {
-        margin: 10px;
+        margin: 10px 10px 15px 10px; 
         font-size: 2em;
     }
 
@@ -552,7 +557,7 @@ img {
     }
 
     article#anuncios h2  {
-        margin: 10px;
+        margin: 10px 10px 15px 10px; 
         font-size: 2em;
     }
 
@@ -561,7 +566,7 @@ img {
     }
 
     article#porque-gestor h2 {
-        margin: 10px;
+        margin: 10px 10px 15px 10px; 
         font-size: 2em;
     }
 
@@ -570,7 +575,7 @@ img {
     }
 
     article#vendas h2 {
-        margin: 10px;
+        margin: 10px 10px 15px 10px; 
         font-size: 2em;
     }
 
@@ -580,7 +585,12 @@ img {
         margin: auto;
     }
 
-
+    /* estilização da imagem gestor de tráfego - money */ 
+    article#gestor-trafego img {
+        margin: 15px auto;
+        
+        width: 90%;
+    }
 }
 
 /* ------------- responsividade do menu da pagina -------------- */
@@ -591,14 +601,18 @@ img {
         background-color: #2a2a2a;
         text-align: center;
         padding: 10px;
-        border-radius: 20px;
+        border-radius: 0 0 20px 20px;
+        border-bottom: 3px solid var(--cor04);
+        border-top: none;
         position: absolute;
         top: 40px;
-        right: 10px;
+        right: 20px;
     }
 
     #menu>ul>li>a {
-        line-height: 2em;
+        line-height: 2.5em;
+        width: 100%;
+        padding: 5px 30px;
     }
 
     #menu:hover>ul {
@@ -609,7 +623,14 @@ img {
         display: block;
         color: white;
         padding-right: 40px;
+        transition: .8s;
     }
+
+    h2#botao-menu:hover {
+        opacity: 0.5;
+        color: var(--cor04);
+    }
+
     img {
         width: 100%;
     }
