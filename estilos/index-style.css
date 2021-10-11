@@ -391,7 +391,7 @@ p.link-acao:hover {
     transform: scale(0.7);
 }
 
-/* RODAPÉ DA PAGINA  //  footter */ 
+/* RODAPÉ DA PAGINA  //  footter */
 footer {
     background-color: #192136;
     color: white;
@@ -409,7 +409,7 @@ footer div {
 }
 
 footer h3 {
-    color: #bbbbbbbb;
+    color: var(--cor02);
     margin-bottom: 4px;
 }
 
@@ -421,13 +421,21 @@ div.box-footer {
     padding: 0 20px;
 }
 
-div.icones-redes {
+.icones {
+    display: flex;
     text-align: center;
+    margin: 3% auto;
 }
 
-div.icones-redes a:hover {
-    border-bottom: 2px solid white;
+p.tegs a {
+    color: #bbbbbbbb;
+    text-decoration: none;
+    font-weight: normal;
+    transition: .5s;
+}
 
+p.tegs a:hover {
+    color: var(--cor04);
 }
 
 footer img {
