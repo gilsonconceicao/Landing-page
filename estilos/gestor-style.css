@@ -434,6 +434,7 @@ img {
 
     section#destaque h2 {
         color: white;
+        text-shadow: 2px 2px 2px #383838ad;
         font-size: 2em;
         text-align: center;
         margin-top: 20px;
